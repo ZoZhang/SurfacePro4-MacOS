@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>zeo</string>
+	<key>Description</key>
+	<string>iatkos_ec</string>
+	<key>Theme</key>
+	<dict>
+		<key>Background</key>
+		<dict>
+			<key>Path</key>
+			<string>iatkos_login.png</string>
+			<key>Type</key>
+			<string>Scale</string>
+		</dict>
+		<key>Badges</key>
+		<dict>
+			<key>Inline</key>
+			<true/>
+			<key>Show</key>
+			<true/>
+			<key>Swap</key>
+			<true/>
+		</dict>
+		<key>Banner</key>
+		<string>iatkos_logo2.png</string>
+		<key>Font</key>
+		<dict>
+			<key>CharWidth</key>
+			<integer>10</integer>
+			<key>Path</key>
+			<string>font_sample_grey.png</string>
+			<key>Type</key>
+			<string>Load</string>
+		</dict>
+		<key>Selection</key>
+		<dict>
+			<key>Big</key>
+			<string>Selection_big.png</string>
+			<key>Color</key>
+			<string>0xFFFFFF80</string>
+			<key>Small</key>
+			<string>Selection_small.png</string>
+		</dict>
+		<key>CustomIcons</key>
+		<true/>
+		</dict>
+
+
+</dict>
+</plist>
