@@ -142,11 +142,13 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 kext-dev-mode=1</string>
+		<string>-v dart=0 darkwake=10 kext-dev-mode=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>HibernationFixup</key>
+		<true/>
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>NeverHibernate</key>
@@ -232,7 +234,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>Bluemac</string>
+		<string>iatkos</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -953,6 +955,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>BacklightLevel</key>
+		<string>0.4</string>
 		<key>CustomUUID</key>
 		<string>C8E208A7-45A5-459F-B8AB-ED360C95FE92</string>
 		<key>InjectKexts</key>
